@@ -1,0 +1,59 @@
+### async functionality with createAsyncThunk
+
+-[Course API](https://course-api.com/)
+-https://course-api.com/react-useReducer-cart-project
+- cartSlice.js
+
+
+- action type
+- callback function 
+- lifecycle actions
+
+in fetch 404 is not error it is network problem
+
+install axios 
+npm install axios
+
+
+install template 
+```sh 
+npx create-react-app my-app --template redux
+```
+
+- @latest 
+
+``` sh
+npx create-react-app@latest my-app --template redux
+
+Existing app
+npm install @reduxjs/toolkit react-redux
+
+reduxjs/toolkit 
+consists of few libraries 
+
+- redux (core library, state management)
+- immer (allows to mutate state)
+- redux-thunk (handles async actions)
+- reselect (simplifies reducer functions)
+
+Extras 
+
+- redux devtools
+- combine reducers 
+
+react-redux 
+connects our app to redux 
+
+### Setup Store 
+
+- create store.jsx 
+
+import { configureStore } from '@reduxjs/toolkit';
+
+export const store = configureStore({reducer: {}});
+
+Setup provider 
+
+main.jsx
+
+
