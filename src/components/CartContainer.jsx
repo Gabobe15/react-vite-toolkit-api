@@ -19,7 +19,7 @@ const CartContainer = () => {
   return (
     <section className="cart">
       <header>
-        <h1>Gabobe devs</h1>
+        <h4>Gabobe devs</h4>
         <h2>your bag</h2>
       </header>
       <div>
